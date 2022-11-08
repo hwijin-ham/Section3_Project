@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- CSS only -->
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" 
+              integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+         <!-- JavaScript Bundle with Popper -->
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" 
+            integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
+
+            </script>
+
+            
+      <title>
+        HTML Page
+      </title>
+    </head>
+    <body>
+        <br><br><br><br>
+        <form action="http://127.0.0.1:5000/review">
+            <div style="margin: 50px;">
+
+                <div class="col-md-2">
+                    <label for="validationCustom03" class="form-label">name</label>
+                    <input type="text" class="form-control" name="name">
+                    
+                </div>
+                <br>
+
+                <div class="col-md-2">
+                    <label for="validationCustom04" class="form-label">tags</label>
+                    <select class="form-select" name="tags" required>
+                    <option selected disabled value="">Choose...</option>
+                    <option>감성카페</option>
+                    <option>제로페이</option>
+                    <option>디저트</option>
+                    <option>디저트카페</option>
+                    <option>루프탑있는</option>
+                    <option>대형카페</option>
+                    <option>로스팅전문</option>
+                    <option>전주앙버터모나카</option>
+                    <option>건강음료</option>
+                    <option>분위기좋은</option>
+                    <option>갤러리카페</option>
+                    <option>데이트코스</option>
+                    <option>전주</option>
+                    <option>카카오페이</option>
+                    <option>브런치카페</option>
+                    <option>고즈넉한</option>
+                    <option>전체</option>
+                    <option>깔끔한</option>
+                    <option>빈티지분위기</option>
+                    <option>북카페</option>
+                    
+                    </select>
+                    
+                </div>
+                <br>
+
+                <div class="col-md-2">
+                    <label for="validationCustom01" class="form-label">price</label>
+                    <input type="text" class="form-control" name="price" value="3000" required>
+                   
+                </div>
+                <br>
+
+                <div class="col-md-2">
+                    <label for="validationCustom04" class="form-label">like</label>
+                    <select class="form-select" name="like" required>
+                    <option selected disabled value="">Choose...</option>
+                    <option>맛</option>
+                    <option>분위기</option>
+                    <option>친절</option>
+                    <option>없음</option>
+                    </select>
+                    
+                </div>
+                
+                <br><br><br>
+
+                <div class="col-12">
+                    <button class="btn btn-primary" type="submit">Submit form</button>
+                </div>
+                
+            </div>
+        </form>
+        
+    </body>
+</html>
